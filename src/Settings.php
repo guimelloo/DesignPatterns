@@ -24,7 +24,7 @@ class Settings
 
     public function setWebsiteName(string $website)
     {
-       $this->website = $website;
+        $this->website = $website;
     }
 
     public function getWebsiteName()
