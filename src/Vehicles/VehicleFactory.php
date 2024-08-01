@@ -10,7 +10,7 @@ use DesignPatterns\Vehicles\Moto;
 
 class VehicleFactory
 {
-    public static function CreateVehicle(mixed $vehicle): Vehicle
+    public static function CreateVehicle($vehicle): Vehicle
     {
         if ($vehicle !== 'car' || $vehicle !== 'car') {
             throw new \Exception("unknown vehicle");
