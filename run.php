@@ -2,6 +2,7 @@
 
 use DesignPatterns\Settings;
 use DesignPatterns\Vehicles\VehicleFactory;
+use DesignPatterns\Minigame\Engine;
 
 include './vendor/autoload.php';
 
@@ -17,4 +18,7 @@ include './vendor/autoload.php';
 
 // echo $settings->getUrl();
 
-$vehicle = new VehicleFactory;
+// $vehicle = new VehicleFactory;
+
+$play = new Engine();
+$play->choose();
